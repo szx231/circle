@@ -1,0 +1,33 @@
+.wrapper {
+  border: 1px solid rgba(38, 40, 66, 0.12);
+  color: #262842;
+  height: 100vh;
+  background: #FFFFFF;
+  flex: 1;
+  &:first-child {
+    // border-left: none !important;
+  }
+  &:last-child {
+    // border-right: none !important;
+  }
+  &:nth-child(6) {
+    color: #A9A9B8;
+  }
+  &:nth-child(7) {
+    color: #A9A9B8;
+  }
+}
+
+.day {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  border-color: rgba(38, 40, 66, 0.12);
+  padding: 4px;
+  background-color: #F7F8FC;
+  display: flex;
+  justify-content: center;
+}
+
